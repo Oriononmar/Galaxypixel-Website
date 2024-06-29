@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+}
+hr {
+  display: none;
+}
+/* header */
+.header {
+  background-color: black;
+}
+.header .constrain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+.header h1 span {
+  display: none;
+}
+.header h1 img {
+  width: 30px;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+.header a:hover {
+  color: rgb(207, 207, 207);
+}
+.header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header nav ul a {
+  margin-left: 50px;
+}
+.constrain {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.button {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
